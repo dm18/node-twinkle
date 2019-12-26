@@ -7,8 +7,8 @@ This is extremely basic ATM. This code is more a working proof on concept then a
 
 This is an Unofficial code, with no warranty or support, use at your own risk.
 
-I am in no way associated with Tinkly, and or LedWorks S.R.L.
-Tinkly & LedWorks S.R.L. belong to their associated copyright owners.
+I am in no way associated with Twinkly, and or LedWorks S.R.L.
+Twinkly & LedWorks S.R.L. belong to their associated copyright owners.
 
 
 ### How to use
