@@ -1,0 +1,26 @@
+{
+  "name": "twinkle",
+  "version": "0.0.1",
+  "description": "Control LED xmas lights uinsg UDP rt mode in Twinkly LED xmas lights.",
+  "main": "Twinkle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dm18/node-twinkle.git"
+  },
+  "keywords": [
+    "twinkly",
+    "node"
+  ],
+  "author": "dm18",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dm18/node-twinkle/issues"
+  },
+  "homepage": "https://github.com/dm18/node-twinkle#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
