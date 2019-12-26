@@ -22,6 +22,8 @@ npm i express
 
 #### Configuring Code Base
 
+
+##### Set IP
 Make sure you've configured your Twinkly LED lights to connect to your wifi network
 Make sure your smart phone is connect to the same wifi network
 Make sure your computer is connect to the same wifi network.
@@ -37,6 +39,7 @@ In Twinkle.js Change HOST ip to the IP address of your Twinkly LED lights
 var HOST = '192.168.2.17';
 ```
 
+##### Set LEDs Packet
 Currently the UDP packet to set LEDs is formated for a Twinkly that is RGB, and has 224 LEDs.
 IF your LED type is diffrent then RGB, you may need a diffrent amount of hex per LED.
 If your Twinkly has more or less LEDS, you'll need to change the number of HEX to match your number of LEDS.
