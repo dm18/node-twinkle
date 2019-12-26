@@ -31,22 +31,25 @@ Touch Devices
 Touch The gear to the right of your Twinkly LED lights
 Find the IP address of your Twinkly LED lights
 
-In Twinkle.js Change HOST ip to the IP address 
+In Twinkle.js Change HOST ip to the IP address of your Twinkly LED lights
 
 ```
 var HOST = '192.168.2.17';
 ```
 
-Currently the UDP packet is formated for a Twinkly that has 224 LEDs of type RGB
-If your twinkly has RBG then each LED is made up of 3 HEX values
+Currently the UDP packet to set LEDs is formated for a Twinkly that is RGB, and has 224 LEDs.
+IF your LED type is diffrent then RGB, you may need a diffrent amount of hex per LED.
+If your Twinkly has more or less LEDS, you'll need to change the number of HEX to match your number of LEDS.
 
 Change LEDs = [ ]; to the correct number of LEDs.
 
-Example: if your Twinkly has 1 LED then it would be
+
+Example: if your Twinkly has 1 LED of type RGB
 ```
 var LEDs = [ 0x00, 0x00, 0x00 ];
+
 ```
-Example: if your Twinkly has 2 LED then it would be
+Example: if your Twinkly has 2 LED of type RGB
 ```
 var LEDs = [ 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 ];
 ```
